@@ -3,6 +3,7 @@ Trang thông tin Github Toan5plus
 # Markkdown
 ## Liên kết
 Để tạo một liên kết, hãy đặt văn bản liên kết trong dấu ngoặc đơn (ví dụ: ) và sau đó ngay lập tức theo sau nó với URL trong ngoặc đơn (ví dụ: ).[Duck Duck Go](https://duckduckgo.com)
+[ ]()
 * [Markdown syntax ](https://www.markdownguide.org/basic-syntax/#links)
 * [Github pages](https://docs.github.com/en/pages/getting-started-with-github-pages/)
 
@@ -16,7 +17,7 @@ Các trang GitHub Pages có sẵn công khai trên internet, ngay cả khi kho l
 
 ### Trên GitHub, điều hướng đến kho lưu trữ trang web của bạn.
 
-Quyết định nguồn xuất bản bạn muốn sử dụng. Xem Đặt cấu hình nguồn phát hành cho trang GitHub Pages của bạn.
+Quyết định nguồn xuất bản bạn muốn sử dụng. Xem [Đặt cấu hình nguồn phát hành cho trang GitHub Pages của bạn.](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 Tạo tệp mục nhập cho trang web của bạn. Trang GitHub sẽ tìm kiếm tệp , hoặc tệp làm tệp mục cho trang web của bạn.index.html, index.md, README.md
 Nếu nguồn xuất bản của bạn là một nhánh và thư mục, tệp nhập phải ở cấp cao nhất của thư mục nguồn trên nhánh nguồn. Ví dụ: nếu nguồn xuất bản của bạn là thư mục trên nhánh, tệp nhập của bạn phải nằm trong thư mục trên nhánh có tên là ./docsmain/docsmain
