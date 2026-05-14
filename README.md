@@ -19,7 +19,7 @@ Các trang GitHub Pages có sẵn công khai trên internet, ngay cả khi kho l
 
 Quyết định nguồn xuất bản bạn muốn sử dụng. Xem [Đặt cấu hình nguồn phát hành cho trang GitHub Pages của bạn.](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-Tạo tệp mục nhập cho trang web của bạn. Trang GitHub sẽ tìm kiếm tệp , hoặc tệp làm tệp mục cho trang web của bạn.index.html, index.md, README.md
+### Tạo tệp mục nhập cho trang web của bạn. Trang GitHub sẽ tìm kiếm tệp , hoặc tệp làm tệp mục cho trang web của bạn.index.html, index.md, README.md
 Nếu nguồn xuất bản của bạn là một nhánh và thư mục, tệp nhập phải ở cấp cao nhất của thư mục nguồn trên nhánh nguồn. Ví dụ: nếu nguồn xuất bản của bạn là thư mục trên nhánh, tệp nhập của bạn phải nằm trong thư mục trên nhánh có tên là ./docsmain/docsmain
 
 Nếu nguồn xuất bản của bạn là quy trình làm việc GitHub Actions, cấu phần phần mềm mà bạn triển khai phải bao gồm tệp mục nhập ở cấp cao nhất của cấu phần phần mềm. Thay vì thêm tệp mục vào kho lưu trữ, bạn có thể chọn để quy trình làm việc GitHub Actions tạo tệp mục nhập khi quy trình làm việc chạy.
