@@ -1,0 +1,138 @@
+```html
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Truy Cập Tài Liệu - Toán 12</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.16/index.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .pulse-ring { animation: pulse-ring 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+    @keyframes pulse-ring { 0%, 100% { transform: scale(1); opacity: 0.5; } 50% { transform: scale(1.05); opacity: 1; } }
+    .fade-out { animation: fadeOut 0.5s ease-in forwards; }
+    @keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
+    .countdown-glow { text-shadow: 0 0 20px rgba(99, 102, 241, 0.5), 0 0 40px rgba(99, 102, 241, 0.3); }
+    .bg-grid {
+      background-image: radial-gradient(circle, #e2e8f0 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-violet-50 bg-grid flex items-center justify-center px-4">
+  <div id="mainContainer" class="w-full max-w-lg fade-in">
+    <!-- Card -->
+    <div class="bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden">
+      <!-- Header -->
+      <div class="bg-gradient-to-r from-indigo-600 to-violet-600 px-6 py-8 text-center relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+          <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+              <path d="M 10 0 L 0 0 0 10" fill="none" stroke="white" stroke-width="0.5"/>
+            </pattern>
+            <rect width="100" height="100" fill="url(#grid)"/>
+          </svg>
+        </div>
+        <div class="relative z-10">
+          <div class="inline-flex items-center justify-center w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl mb-4 pulse-ring">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h1 class="text-2xl font-bold text-white tracking-tight">Tài Liệu Toán 12</h1>
+          <p class="text-indigo-100 text-sm mt-1">Ngân hàng câu hỏi trắc nghiệm</p>
+        </div>
+      </div>
+
+      <!-- Countdown Section -->
+      <div class="px-8 py-6 text-center">
+        <p class="text-slate-600 text-sm mb-4">Trang sẽ tự động chuyển hướng sau</p>
+        <div id="countdownDisplay" class="countdown-glow text-7xl font-black text-indigo-600 mb-6 transition-all duration-300">
+          10
+        </div>
+        <div class="flex items-center justify-center gap-2 text-sm text-slate-500">
+          <svg class="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          <span>Đang chuẩn bị mở tài liệu...</span>
+        </div>
+      </div>
+
+      <!-- Progress Bar -->
+      <div class="px-8 pb-6">
+        <div class="w-full bg-slate-100 rounded-full h-2 overflow-hidden">
+          <div id="progressBar" class="h-full bg-gradient-to-r from-indigo-500 to-violet-500 rounded-full transition-all duration-1000 ease-linear" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <!-- Manual Link Section -->
+      <div class="px-8 pb-8">
+        <a id="driveLink" href="https://drive.google.com/file/d/1yitbolh_wsaqHKu6l92eFZXAIdHElWYm/view" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 w-full px-6 py-3.5 bg-slate-800 hover:bg-slate-900 text-white rounded-xl font-medium transition-all duration-200 shadow-lg shadow-slate-800/20 hover:shadow-slate-800/30 hover:scale-[1.02] active:scale-[0.98]">
+          <svg class="w-5 h-5 text-emerald-400" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+          </svg>
+          Mở tài liệu ngay trên Google Drive
+        </a>
+        <p class="text-center text-xs text-slate-400 mt-3">Nhấn nút nếu không muốn chờ</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <p class="text-center text-xs text-slate-400 mt-6">© 2024 Ngân Hàng Câu Hỏi Toán 12</p>
+  </div>
+
+  <!-- Redirecting Overlay -->
+  <div id="redirectOverlay" class="fixed inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-indigo-600 to-violet-600 opacity-0 pointer-events-none transition-opacity duration-500">
+    <div class="text-center text-white">
+      <div class="inline-flex items-center justify-center w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl mb-6 animate-bounce">
+        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+        </svg>
+      </div>
+      <h2 class="text-2xl font-bold mb-2">Đang mở tài liệu...</h2>
+      <p class="text-indigo-100">Vui lòng đợi trong giây lát</p>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      const DRIVE_URL = "https://drive.google.com/file/d/1yitbolh_wsaqHKu6l92eFZXAIdHElWYm/view";
+      const COUNTDOWN_SECONDS = 10;
+      let timeLeft = COUNTDOWN_SECONDS;
+
+      const countdownEl = document.getElementById('countdownDisplay');
+      const progressBar = document.getElementById('progressBar');
+      const overlay = document.getElementById('redirectOverlay');
+
+      function updateUI() {
+        countdownEl.textContent = timeLeft;
+        const progress = ((COUNTDOWN_SECONDS - timeLeft) / COUNTDOWN_SECONDS) * 100;
+        progressBar.style.width = progress + '%';
+      }
+
+      function redirect() {
+        overlay.classList.remove('opacity-0', 'pointer-events-none');
+        overlay.classList.add('opacity-100');
+        setTimeout(() => {
+          window.open(DRIVE_URL, '_blank');
+          try { window.close(); } catch(e) {}
+          window.location.href = DRIVE_URL;
+        }, 1500);
+      }
+
+      updateUI();
+
+      const timer = setInterval(() => {
+        timeLeft--;
+        updateUI();
+        if (timeLeft <= 0) {
+          clearInterval(timer);
+          redirect();
+        }
+      }, 1000);
+    })();
+  </script>
+</body>
+</html>
+```
