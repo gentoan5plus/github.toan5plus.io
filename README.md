@@ -1,13 +1,19 @@
-# github.toan5plus.io
-Trang thông tin Github Toan5plus
-# Markkdown
-## Liên kết
+Trang github.toan5plus.io
+# Trang thông tin Github Toan5plus
+## Tài nguyên của tôi
+* [Toan5plus-online](www.dtt.io.vn)
+* [Toan5plus Wordpress](https://dttiovn.wordpress.com)
+* [ ]()
+## Markkdown
+### Liên kết
 Để tạo một liên kết, hãy đặt văn bản liên kết trong dấu ngoặc đơn (ví dụ: ) và sau đó ngay lập tức theo sau nó với URL trong ngoặc đơn (ví dụ: ).
 [ ]()
 * [Markdown syntax ](https://www.markdownguide.org/basic-syntax/#links)
 * [Github pages](https://docs.github.com/en/pages/getting-started-with-github-pages/)
 * [Bắt đầu nhanh cho GitHub Actions](https://docs.github.com/en/actions/get-started/quickstart)
-# Tạo trang web của bạn
+
+
+## Tạo trang web của bạn
 ### Trước khi có thể tạo trang web của mình, bạn phải có kho lưu trữ cho trang web của mình trên GitHub. 
 Nếu bạn không tạo trang web của mình trong kho lưu trữ hiện có, hãy xem [Tạo kho lưu trữ cho trang web của bạn](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-a-repository-for-your-site).
 
