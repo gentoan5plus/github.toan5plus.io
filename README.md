@@ -24,7 +24,8 @@ Nếu nguồn xuất bản của bạn là một nhánh và thư mục, tệp nh
 
 Nếu nguồn xuất bản của bạn là quy trình làm việc GitHub Actions, cấu phần phần mềm mà bạn triển khai phải bao gồm tệp mục nhập ở cấp cao nhất của cấu phần phần mềm. Thay vì thêm tệp mục vào kho lưu trữ, bạn có thể chọn để quy trình làm việc GitHub Actions tạo tệp mục nhập khi quy trình làm việc chạy.
 
-### Đặt cấu hình nguồn phát hành của bạn. Xem Đặt cấu hình nguồn phát hành cho trang GitHub Pages của bạn.
+### Đặt cấu hình nguồn phát hành của bạn. 
+Xem [Đặt cấu hình nguồn phát hành cho trang GitHub Pages của bạn](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 Trang GitHub của bạn được xây dựng và triển khai với quy trình làm việc GitHub Actions. Để biết thêm thông tin, hãy xem Xem lịch sử chạy quy trình làm việc.
 
