@@ -1,7 +1,7 @@
 Trang github.toan5plus.io
 # Trang thông tin Github Toan5plus
 ## Tài nguyên của tôi
-* [Toan5plus-online](www.dtt.io.vn)
+* [Toan5plus-online](https://sites.google.com/view/toan5plus-online/home)
 * [Toan5plus Wordpress](https://dttiovn.wordpress.com)
 * [ ]()
 ## Markkdown
