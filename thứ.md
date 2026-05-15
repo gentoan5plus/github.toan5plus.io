@@ -9,7 +9,7 @@ Dưới đây là lời giải chi tiết cho 25 câu đầu tiên của đề t
 PHẦN NHẬN BIẾT (4,0 điểm – 20 câu)
 Câu 1: Trong các hệ thức sau, hệ thức nào không phải là phương trình bậc nhất hai ẩn?
 
-Đáp án: C. $x^{2}$+y=4.
+Đáp án: C. $x^{2}$ +y=4.
 Giải thích: Phương trình bậc nhất hai ẩn có dạng ax + by = c (với a, b không đồng thời bằng 0). Hệ thức x^2 + y = 4 có chứa x^2 nên là phương trình bậc hai.
 Câu 2: Cho hệ phương trình \begin{cases}3x+y=5\\ x-2y=4\end{cases}. Hãy xác định các hệ số a, b, c của phương trình thứ hai.
 
