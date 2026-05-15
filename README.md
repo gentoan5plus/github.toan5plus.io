@@ -12,6 +12,8 @@ Trang github.toan5plus.io
 * [Github pages](https://docs.github.com/en/pages/getting-started-with-github-pages/)
 * [Bắt đầu nhanh cho GitHub Actions](https://docs.github.com/en/actions/get-started/quickstart)
 
+## Công thức toán
+$ax^3$
 
 ## Tạo trang web của bạn
 ### Trước khi có thể tạo trang web của mình, bạn phải có kho lưu trữ cho trang web của mình trên GitHub. 
