@@ -11,7 +11,7 @@ Câu 1: Trong các hệ thức sau, hệ thức nào không phải là phương 
 
 Đáp án: C. $x^{2}$ +y=4.
 Giải thích: Phương trình bậc nhất hai ẩn có dạng ax + by = c (với a, b không đồng thời bằng 0). Hệ thức x^2 + y = 4 có chứa x^2 nên là phương trình bậc hai.
-Câu 2: Cho hệ phương trình \begin{cases}3x+y=5\\ x-2y=4\end{cases}. Hãy xác định các hệ số a, b, c của phương trình thứ hai.
+Câu 2: Cho hệ phương trình $$\begin{cases}3x+y=5\\ x-2y=4\end{cases}$$. Hãy xác định các hệ số a, b, c của phương trình thứ hai.
 
 Đáp án: A. a=1, b=-2, c=4.
 Giải thích: Đối chiếu phương trình x - 2y = 4 với dạng tổng quát ax + by = c, ta có a=1, b=-2, c=4.
